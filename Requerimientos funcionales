@@ -1,37 +1,32 @@
-01: Registro de Usuario
+- REQUERIMIENTOS FUNCIONALES – NAGOMI PILATES
 
-- Nombre: Registro de datos personales del usuario
-El sistema debe permitir al usuario ingresar sus datos personales para crear un perfil.
+1. El sistema debe permitir registrar un nuevo usuario ingresando su nombre, edad, peso (kg) y altura (metros).
+2. El sistema debe permitir cargar un usuario existente desde un archivo de texto (`usuarios.txt`) para continuar con su perfil.
+3. El sistema debe generar una rutina personalizada de ejercicios de Pilates basada en los datos del usuario (edad, peso, altura) y nivel de dificultad (opcional).
+4. El sistema debe mostrar en consola la rutina actual generada, incluyendo nombre, repeticiones, series e instrucciones de cada ejercicio.
+5. El sistema debe permitir al usuario ingresar manualmente el nombre de un ejercicio de Pilates para ver sus instrucciones (dinámico, sin switch largo).
+6. El sistema debe mostrar mensajes motivacionales aleatorios al usuario cuando lo solicite, para incentivar su constancia en el entrenamiento.
+7. El sistema debe guardar los datos de los usuarios registrados en un archivo de texto para su persistencia entre sesiones.
+8. El sistema debe ofrecer un menú interactivo por consola que permita navegar entre todas las funcionalidades disponibles (registro, carga, rutina, motivación, salir).
+9. El sistema debe manejar excepciones comunes (como entrada inválida o archivos no encontrados) mostrando mensajes amigables sin detener la ejecución.
+10. El sistema debe implementar clases, objetos, atributos y métodos para modelar adecuadamente a los usuarios, ejercicios y rutinas.
+11. El sistema debe aplicar herencia entre clases (por ejemplo: `EjercicioPilates` hereda de `Ejercicio`, `RutinaPersonalizada` hereda de `Rutina`).
+12. El sistema debe usar encapsulamiento y visibilidad adecuada (atributos privados, getters/setters) en todas las clases.
+13. El sistema debe usar una interfaz (`Motivacion`) para definir comportamientos comunes (obtener mensaje motivacional).
+14. El sistema debe utilizar colecciones `ArrayList` para gestionar listas de ejercicios dentro de una rutina.
+15. El sistema debe estar preparado para futuras versiones, incluyendo gestión de excepciones y lectura/escritura de archivos.
 
--Entrada:
-Nombre 
-Edad 
-Peso 
-Altura
+- REQUERIMIENTOS NO FUNCIONALES
 
--Proceso: Validar que los datos numéricos sean correctos y crear un objeto Usuario
--Salida: Confirmación de registro exitoso.
--Validación: Verificar que los datos numéricos sean positivos y válidos.
+1. El código debe ser modular, legible y documentado con comentarios claros.
+2. Las clases deben mantener relaciones coherentes (asociación, agregación, herencia) según el modelo de dominio.
+3. El sistema debe ser fácil de ampliar en futuras versiones (por ejemplo, añadir nuevas funcionalidades como historial de sesiones o estadísticas).
+4. Los nombres de clases, métodos y variables deben seguir convenciones claras y consistentes (camelCase, PascalCase, significativos).
 
-02. Carga de Usuario Existente
+- VERSIÓN DEL SISTEMA
 
-- Nombre: Cargar datos de un usuario previamente registrado.
- El sistema debe permitir seleccionar un usuario guardado en archivo de texto.
+Versión: 1.0 (Preliminar)  
+Tipo de entrega: Estructura inicial del proyecto en Java Objetivo: Demostrar comprensión y aplicación de los principios de POO.
 
-- Entrada: Lista de usuarios disponibles.
-- Proceso: Leer archivo usuarios.txt y mostrar lista de usuarios.
-- Salida: Carga exitosa de los datos del usuario seleccionado.
-
-03. Generación de Rutina Personalizada
-
-- Nombre: Crear rutina basada en datos del usuario.
- El sistema debe generar una rutina de ejercicios adaptada al perfil del usuario.
-
-- Entrada: Datos del usuario y nivel de dificultad (opcional).
-- Proceso: Seleccionar ejercicios y ajustar repeticiones y series según la edad.
-- Salida: Lista de ejercicios personalizados.
-- Validación: Verificar que exista un usuario activo.
-
-
-
-* Validación: Verificar que existan usuarios registrados.
+Versión: 1.0 (Preliminar)  
+Tipo de entrega: Estructura inicial del proyecto en Java Objetivo: Demostrar comprensión y aplicación de los principios de POO.
