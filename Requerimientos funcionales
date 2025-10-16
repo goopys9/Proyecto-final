@@ -1,0 +1,37 @@
+01: Registro de Usuario
+
+- Nombre: Registro de datos personales del usuario
+El sistema debe permitir al usuario ingresar sus datos personales para crear un perfil.
+
+-Entrada:
+Nombre 
+Edad 
+Peso 
+Altura
+
+-Proceso: Validar que los datos numéricos sean correctos y crear un objeto Usuario
+-Salida: Confirmación de registro exitoso.
+-Validación: Verificar que los datos numéricos sean positivos y válidos.
+
+02. Carga de Usuario Existente
+
+- Nombre: Cargar datos de un usuario previamente registrado.
+ El sistema debe permitir seleccionar un usuario guardado en archivo de texto.
+
+- Entrada: Lista de usuarios disponibles.
+- Proceso: Leer archivo usuarios.txt y mostrar lista de usuarios.
+- Salida: Carga exitosa de los datos del usuario seleccionado.
+
+03. Generación de Rutina Personalizada
+
+- Nombre: Crear rutina basada en datos del usuario.
+ El sistema debe generar una rutina de ejercicios adaptada al perfil del usuario.
+
+- Entrada: Datos del usuario y nivel de dificultad (opcional).
+- Proceso: Seleccionar ejercicios y ajustar repeticiones y series según la edad.
+- Salida: Lista de ejercicios personalizados.
+- Validación: Verificar que exista un usuario activo.
+
+
+
+* Validación: Verificar que existan usuarios registrados.
