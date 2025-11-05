@@ -1,25 +1,35 @@
-Requerimientos funcionales – Nagomi Pilates
+Requerimientos Funcionales – Nagomi Pilates
 
 RF1. Registro de personas
-El sistema guarda la información básica de cada persona (ID, nombre y correo).
+El sistema guarda la información básica de cada persona (ID, nombre y correo) al momento de registrarla como cliente o instructor.
 
 RF2. Roles de usuario
-Cada persona puede ser Instructor o Cliente, y el sistema muestra su rol correspondiente.
+Cada persona registrada puede ser Instructor o Cliente, y el sistema muestra su rol correspondiente mediante el método mostrarRol().
 
 RF3. Gestión de clientes e instructores
-El instructor puede agregar y ver la lista de clientes que tiene asignados.
+El instructor puede agregar y visualizar la lista de clientes que tiene asignados, permitiendo llevar un control de sus alumnos.
 
 RF4. Creación de rutinas
-El sistema permite crear rutinas de ejercicios personalizadas con un nombre específico.
+El sistema permite crear rutinas de ejercicios personalizadas, asignándoles un nombre específico y almacenándolas en una lista general de rutinas.
 
 RF5. Agregar ejercicios
-Cada rutina puede tener varios ejercicios, indicando su nombre, nivel y duración.
+Cada rutina puede incluir varios ejercicios, especificando para cada uno su nombre, nivel de dificultad y duración en minutos.
 
 RF6. Asignar rutina a cliente
-El instructor puede asignar una rutina a un cliente para que la siga.
+El sistema permite asignar una rutina creada a un cliente determinado para su seguimiento personalizado.
 
 RF7. Seguimiento del progreso
-Se puede registrar un seguimiento del cliente con fecha y comentario.
+El sistema permite registrar un seguimiento del cliente con la fecha y un comentario sobre su progreso o estado actual.
 
 RF8. Mostrar información
-El sistema puede mostrar los detalles de ejercicios, rutinas, clientes, instructores y seguimientos.
+El sistema puede mostrar los detalles de ejercicios, rutinas, clientes, instructores y seguimientos, incluyendo datos como peso, altura, edad y tipo de cliente.
+
+RF9. Actualización a cliente premium
+El sistema permite actualizar un cliente básico a cliente premium, asignándole una tarjeta de membresía (PremiumCard) con beneficios adicionales.
+
+RF10. Servicios premium
+Los clientes premium pueden consultar los servicios disponibles en su membresía y utilizar aquellos que estén habilitados.
+Si el servicio no está incluido, el sistema lanza una excepción (ServicioNoDisponibleException).
+
+RF11. Mensajes motivacionales
+El sistema puede enviar mensajes motivacionales aleatorios a todos los clientes registrados para fomentar la constancia y el bienestar.
