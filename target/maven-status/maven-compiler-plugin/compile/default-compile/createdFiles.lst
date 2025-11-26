@@ -1,0 +1,14 @@
+com\mycompany\sairaproyec\InvalidEmailException.class
+com\mycompany\sairaproyec\PDFGenerator.class
+com\mycompany\sairaproyec\PremiumCard.class
+com\mycompany\sairaproyec\Cliente.class
+com\mycompany\sairaproyec\Rutina.class
+com\mycompany\sairaproyec\Ejercicio.class
+com\mycompany\sairaproyec\Instructor.class
+com\mycompany\sairaproyec\Card.class
+com\mycompany\sairaproyec\Persistible.class
+com\mycompany\sairaproyec\Persona.class
+com\mycompany\sairaproyec\ArchivoPersistencia.class
+com\mycompany\sairaproyec\BasicCard.class
+com\mycompany\sairaproyec\MediumCard.class
+com\mycompany\sairaproyec\Sairaproyec.class
